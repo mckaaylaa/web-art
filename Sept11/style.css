@@ -1,0 +1,40 @@
+body{
+    max-width: 615px;
+    margin: 0 auto;
+    background-color: rgb(230, 230, 220);
+}
+
+h1{
+    color: rgb(82, 82, 64);
+    font-size: 37px;
+    font-family: 'Raleway', sans-serif;
+
+}
+h2{
+    color: rgb(82, 82, 64);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+hr{
+    
+}
+p{
+    color: rgb(236, 245, 232);
+    background-color: rgb(99, 99, 79);
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    border-style: solid;
+    border-width: 7.5px;
+    border-color: rgb(82, 82, 64);
+    line-height: 1.5;
+}
+img{
+    max-width: 600px;
+    padding: 7.5px;
+    background-color: rgb(171, 171, 155);
+
+   
+}
