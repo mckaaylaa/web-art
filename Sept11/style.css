@@ -10,15 +10,25 @@ h1{
     font-family: 'Raleway', sans-serif;
 
 }
+
 h2{
     color: rgb(82, 82, 64);
     font-size: 18px;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
 }
-hr{
-    
+
+h3{
+    color: rgb(82, 82, 64);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }
+
+hr{
+    color: rgb(82, 82, 64);
+}
+
 p{
     color: rgb(236, 245, 232);
     background-color: rgb(99, 99, 79);
@@ -35,6 +45,4 @@ img{
     max-width: 600px;
     padding: 7.5px;
     background-color: rgb(171, 171, 155);
-
-   
 }
