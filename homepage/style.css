@@ -1,10 +1,9 @@
 body{
     margin: 0 auto;
     background-color: rgb(202, 204, 232);
-    background-image: url(https://i.gifer.com/xw.gif);
+    background-image: url(https://i.gifer.com/xw.gif), url(https://i.gifer.com/2iiB.gif);
     background-position: center;
-    background-size: cover;
-    
+    max-width: 750px;
 }
 
 h1{
@@ -16,7 +15,7 @@ h1{
     dotted
     ;
     text-align: center;
-    background-image: url(https://i.gifer.com/3nR6.gif);
+    background-image: url(https://i.gifer.com/WG8P.gif);
 }
 
 
@@ -33,4 +32,8 @@ color: rgb(233, 228, 238);
     background: rgb(242,43,201);
 background: radial-gradient(circle, rgb(255, 0, 204) 0%, rgb(114, 111, 188) 100%);
 }
+.catgif{
+    position: fixed;
+    width: 50%;
 
+}
