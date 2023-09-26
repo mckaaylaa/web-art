@@ -1,7 +1,8 @@
 body{
     max-width: 615px;
     margin: 0 auto;
-    background-color: rgb(230, 230, 220);
+    background: rgb(255,207,227);
+background: linear-gradient(108deg, rgba(255,207,227,1) 0%, rgba(254,81,87,1) 33%, rgba(253,29,29,1) 51%, rgba(253,59,37,1) 69%, rgba(252,176,69,1) 100%);
 }
 
 
@@ -10,11 +11,11 @@ h1{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500px;
     text-align: center;
-    color: rgb(65, 65, 54);
+    color: rgb(244, 242, 234);
 }
 
 h2{
-    color: rgb(82, 82, 64);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: 200;
     font-family: 'Quicksand', sans-serif;
@@ -22,5 +23,8 @@ h2{
     padding: 25px;
     border: 2px
     solid
-    rgb(65, 65, 54);
+    rgb(255, 255, 255);
+    border-background: rgb(242,43,201);
+background: radial-gradient(circle, rgba(242,43,201,1) 0%, rgba(189,55,55,1) 100%);
 }
+
