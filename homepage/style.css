@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(202, 204, 232);
+    background-image: url(https://i.gifer.com/xw.gif);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+h1{
+    font-size: 5rem;
+    color: rgb(242,43,201);
+    background-color: rgb(230, 216, 227);
+    padding: 15px;
+    border: 6px
+    dotted
+    ;
+    text-align: center;
+    background-image: url(https://i.gifer.com/3nR6.gif);
+}
+
+
+h2{
+color: rgb(233, 228, 238);
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 25px;
+    border: 6px
+    solid
+    rgb(228, 92, 201);
+    background: rgb(242,43,201);
+background: radial-gradient(circle, rgb(255, 0, 204) 0%, rgb(114, 111, 188) 100%);
+}
+
