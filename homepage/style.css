@@ -1,39 +1,106 @@
-body{
+body {
     margin: 0 auto;
     background-color: rgb(202, 204, 232);
-    background-image: url(https://i.gifer.com/xw.gif), url(https://i.gifer.com/2iiB.gif);
+    background-image: url(https://i.gifer.com/2iiB.gif), url(swirls.png);
     background-position: center;
+    background-repeat:repeat;
+    background-size: contain;
     max-width: 750px;
+    text-align: center;
 }
 
-h1{
-    font-size: 5rem;
-    color: rgb(242,43,201);
-    background-color: rgb(230, 216, 227);
+h1 {
+    font-size: 4rem;
+    font-family: 'Croissant One', cursive;
+    color: rgb(234, 13, 98);
+    background-color: rgba(230, 216, 227, 0.503);
     padding: 15px;
-    border: 6px
-    dotted
-    ;
+    border: 6px dotted;
     text-align: center;
     background-image: url(https://i.gifer.com/WG8P.gif);
+
 }
 
 
-h2{
-color: rgb(233, 228, 238);
+h2 {
+    color: rgb(255, 255, 255);
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 800;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     padding: 25px;
+    border: 6px solid rgb(234, 13, 98);
+    background: rgb(27, 4, 70);
+    background-image: url(https://i.gifer.com/IVvP.gif);
+    
+}
+
+.artiststatement {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(27, 4, 70);
+    font-family: quicksand;
+    line-height: 2rem;
+    background-color: rgba(255, 0, 89, 0.485);
+    background: radial-gradient(circle, rgba(242, 232, 240, 0.798) 0%, rgba(19, 17, 79, 0.5) 100%);
+    padding: 1rem;
+    border: 6px 
+    solid
+    rgb(234, 13, 98)
+    ;
+}
+
+.box {
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    max-width: auto;
+    height: auto;
+    background-color: rgba(240, 255, 255, 0.5);
+    margin-top: 2rem;
+    border-top: 3rem solid rgb(234, 13, 98);
+    background-image: url(https://i.gifer.com/3F3I.gif);
+}
+img{
+    max-width: 50%;
+}
+
+.child{
+    font-size: 2rem;
+    font-family: 'Croissant One', cursive;
+
+}
+
+.paintings{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: quicksand;
+    padding: 10px;
+    position: sticky;
+    max-width: auto;
+    height: auto;
+    background-color: rgba(240, 255, 255, 0.5);
+    margin: 2rem;
+    border: 2rem
+    solid
+    orange;
+}
+
+.shrek{
+max-width: 300px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+.miniartist{
+    max-width: 75%;
     border: 6px
     solid
-    rgb(228, 92, 201);
-    background: rgb(242,43,201);
-background: radial-gradient(circle, rgb(255, 0, 204) 0%, rgb(114, 111, 188) 100%);
-}
-.catgif{
-    position: fixed;
-    width: 50%;
-
+    rgb(234, 13, 98);
+    background-image: url(https://i.gifer.com/7RMn.gif);
 }
