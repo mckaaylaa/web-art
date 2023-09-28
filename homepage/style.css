@@ -3,7 +3,7 @@ body {
     background-color: rgb(202, 204, 232);
     background-image: url(https://i.gifer.com/2iiB.gif), url(swirls.png);
     background-position: center;
-    background-repeat:repeat;
+    background-repeat: repeat;
     background-size: contain;
     max-width: 750px;
     text-align: center;
@@ -32,7 +32,7 @@ h2 {
     border: 6px solid rgb(234, 13, 98);
     background: rgb(27, 4, 70);
     background-image: url(https://i.gifer.com/IVvP.gif);
-    
+
 }
 
 .artiststatement {
@@ -44,10 +44,7 @@ h2 {
     background-color: rgba(255, 0, 89, 0.485);
     background: radial-gradient(circle, rgba(242, 232, 240, 0.798) 0%, rgba(19, 17, 79, 0.5) 100%);
     padding: 1rem;
-    border: 6px 
-    solid
-    rgb(234, 13, 98)
-    ;
+    border: 6px solid rgb(234, 13, 98);
 }
 
 .box {
@@ -61,20 +58,22 @@ h2 {
     border-top: 3rem solid rgb(234, 13, 98);
     background-image: url(https://i.gifer.com/3F3I.gif);
 }
-img{
+
+img {
     max-width: 50%;
 }
 
-.child{
+.child {
     font-size: 2rem;
     font-family: 'Croissant One', cursive;
     color: rgba(19, 17, 79, 0.5);
 
 }
 
-.paintings{
+.paintings {
     font-size: 1.4rem;
     font-weight: 500;
+    color: rgba(19, 17, 79, 0.5);
     text-align: center;
     font-family: quicksand;
     padding: 10px;
@@ -83,13 +82,11 @@ img{
     height: auto;
     background-color: rgba(240, 255, 255, 0.5);
     margin: 2rem;
-    border: 2rem
-    solid
-    orange;
+    border: 2rem solid orange;
 }
 
-.shrek{
-max-width: 300px;
+.shrek {
+    max-width: 300px;
     text-align: left;
     position: absolute;
     left: 0;
@@ -98,10 +95,8 @@ max-width: 300px;
 
 
 
-.miniartist{
+.miniartist {
     max-width: 75%;
-    border: 6px
-    solid
-    rgb(234, 13, 98);
+    border: 6px solid rgb(234, 13, 98);
     background-image: url(https://i.gifer.com/7RMn.gif);
 }
