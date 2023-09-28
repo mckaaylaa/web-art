@@ -100,3 +100,13 @@ img {
     border: 6px solid rgb(234, 13, 98);
     background-image: url(https://i.gifer.com/7RMn.gif);
 }
+
+.static{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    background-image: url(https://i.gifer.com/39Oo.gif);
+}
