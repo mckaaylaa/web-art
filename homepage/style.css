@@ -101,21 +101,14 @@ img {
     background-image: url(https://i.gifer.com/7RMn.gif);
 }
 
-.static{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: black;
-    width: 300px;
-    height: 50px;
-    background-image: url(https://i.gifer.com/39Oo.gif);
-}
 
 .webring{
+    padding: 10px;
     border: 6px
     solid
     hotpink;
     background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(19, 3, 92);
 
 }
 
@@ -125,3 +118,4 @@ img {
     color: rgb(73, 9, 40);
     
 }
+
