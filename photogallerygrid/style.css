@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(235, 218, 235);
+  padding: 1rem;
+  border: 0.5rem solid rgb(214, 230, 238);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
+
+.logo {
+  color: rgb(237, 42, 149);
+  font-size: 2rem;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  border: 2px solid rgb(255, 248, 252);
+  border-radius: 25%;
+  background-color: rgb(214, 230, 238);
+  padding: 0.25rem;
+}
+
+main {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.page-title {
+  text-align: center;
+  padding: 4rem;
+  background-image: url("//picsum.photos/id/483/1920/600");
+}
+
+.menulinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.menulinks a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.menulinks a:hover {
+  color: rgb(237, 42, 149);
+}
+
+img {
+  display: block;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat (auto-fit, minmax(200px,1fr));
+}
+
+.gallery img{
+    width: 100%;
+}
+
+footer {
+  background-color: antiquewhite;
+  padding: 2rem;
+}
